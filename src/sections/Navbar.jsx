@@ -3,16 +3,17 @@ import { socials } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   const navRef = useRef(null);
   const linksRef = useRef([]);
   const contactRef = useRef(null);
   const topLineRef = useRef(null);
   const bottomLineRef = useRef(null);
+  const tl = useRef(null);
+  const iconTl = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [showBurger, setShowBurger] = useState(true);
-  const iconTl = useRef(null);
-  const tl = useRef(null);
   useGSAP(() => {
     gsap.set(navRef.current, { xPercent: 100 });
     gsap.set([linksRef.current, contactRef.current], {
@@ -73,14 +74,14 @@ const Navbar = () => {
     let lastScrollY = window.scrollY;
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
+
       setShowBurger(currentScrollY <= lastScrollY || currentScrollY < 10);
+
       lastScrollY = currentScrollY;
     };
-
     window.addEventListener("scroll", handleScroll, {
       passive: true,
     });
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -98,18 +99,18 @@ const Navbar = () => {
     <>
       <nav
         ref={navRef}
-        className="fixed z-50 flex flex-col justify-between w-full h-full px-10 uppercase bg-black text-white/80 md:w-1/2 md:left-1/2 py-28"
+        className="fixed z-50 flex flex-col justify-between w-full h-full px-10 uppercase bg-black text-white/80 py-28 gap-y-10 md:w-1/2 md:left-1/2"
       >
         <div className="flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-8xl">
           {["home", "services", "about", "work", "contact"].map(
             (section, index) => (
               <div key={index} ref={(el) => (linksRef.current[index] = el)}>
                 <Link
+                  className="transition-all duration-300 cursor-pointer hover:text-white"
                   to={`${section}`}
                   smooth
                   offset={0}
                   duration={2000}
-                  className="transition-all duration-300 cursor-pointer hover:text-white"
                 >
                   {section}
                 </Link>
@@ -133,10 +134,12 @@ const Navbar = () => {
               {socials.map((social, index) => (
                 <a
                   key={index}
-                  className="text-sm leading-loose tracking-widest uppercase hover:text-white transition-colors duration-300"
                   href={social.href}
+                  className="text-sm leading-loose tracking-widest uppercase hover:text-white transition-colors duration-300"
                 >
+                  {"{ "}
                   {social.name}
+                  {" }"}
                 </a>
               ))}
             </div>
@@ -149,7 +152,7 @@ const Navbar = () => {
         style={
           showBurger
             ? { clipPath: "circle(50% at 50% 50%)" }
-            : { clipPath: "circle(0.0% at 50% 50%)" }
+            : { clipPath: "circle(0% at 50% 50%)" }
         }
       >
         <span
