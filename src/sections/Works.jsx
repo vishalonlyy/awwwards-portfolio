@@ -4,6 +4,7 @@ import { projects } from "../constants";
 import { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+
 const Works = () => {
   const overlayRefs = useRef([]);
   const previewRef = useRef(null);
@@ -35,10 +36,10 @@ const Works = () => {
       stagger: 0.3,
       ease: "back.out",
       scrollTrigger: {
-        tigger: "#project",
+        trigger: "#project",
       },
     });
-  });
+  }, []);
 
   const handleMouseEnter = (index) => {
     if (window.innerWidth < 768) return;
