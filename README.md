@@ -10,9 +10,9 @@ This is a fully animated, interactive, 3D developer portfolio designed to **impr
 <div>
   <img src="https://github.com/user-attachments/assets/4eaf9399-fd02-4a90-83f7-2b5a361bc032" alt="Hero" style="border-radius: 8px;"/>
   <div style="display: flex; justify-content: space-between; margin: 20px 0;">
-    <img src="https://github.com/user-attachments/assets/155bf742-b24f-4119-89f4-87e6d88c8f53" alt="Works" style="width: 33%; border-radius: 8px;"/>
-    <img src="https://github.com/user-attachments/assets/f22b9749-85ed-434f-a5f6-df1f8e221103" alt="ContactSummary" style="width: 33%; border-radius: 8px;"/>
-    <img src="https://github.com/user-attachments/assets/3e473322-b96a-433b-aec5-ece9bab25795" alt="Contact" style="width: 33%; border-radius: 8px;"/>
+    <img src="https://github.com/user-attachments/assets/155bf742-b24f-4119-89f4-87e6d88c8f53" alt="Works" style="width: 32%; border-radius: 8px;"/>
+    <img src="https://github.com/user-attachments/assets/f22b9749-85ed-434f-a5f6-df1f8e221103" alt="ContactSummary" style="width: 32%; border-radius: 8px;"/>
+    <img src="https://github.com/user-attachments/assets/3e473322-b96a-433b-aec5-ece9bab25795" alt="Contact" style="width: 32%; border-radius: 8px;"/>
   </div>
 </div>
 <br/>
@@ -59,7 +59,7 @@ npm run dev
 
 ## 🛠️ Customization Tips
 
-- Change text, images, and links in /constants/data.js
+- Change text, images, and links in /constants/index.js
 
 - Update 3D models and scene in Hero.jsx
 
