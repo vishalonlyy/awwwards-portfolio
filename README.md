@@ -48,7 +48,7 @@ This is a fully animated, interactive, 3D developer portfolio designed to **impr
 
 ```bash
 git clone https://github.com/Ali-Sanati/awwwards-portfolio.git
-cd your-repo-name
+cd awwwards-portfolio
 npm install
 npm run dev
 ```
