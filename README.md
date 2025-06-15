@@ -47,7 +47,7 @@ This is a fully animated, interactive, 3D developer portfolio designed to **impr
 ## 📦 Setup & Installation
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Ali-Sanati/awwwards-portfolio.git
 cd your-repo-name
 npm install
 npm run dev
