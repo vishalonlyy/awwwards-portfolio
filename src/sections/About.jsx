@@ -5,15 +5,9 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Passionate about clean architecture
-    I build scalable, high-performance solutions
-    from prototype to production`;
-  const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
-  When I’m not shipping:
-⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
-🧗 Rock climbing (problem-solving with real stakes)
-🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+  const text = `We build with purpose at IdeaHatch Labs —
+clean, scalable, and production-ready from day one.`;
+  const aboutText = `IdeaHatch Labs is a future-first development studio fusing creativity with code to deliver real-world impact. We go beyond MVPs — architecting scalable platforms, viral tools, and tech ecosystems that don’t just launch, but last. Whether it's an AI-native product, a tokenized economy, or a responsive web platform, our builds are fast, secure, and battle-tested — designed to evolve with your users and your mission. We’re not freelancers. We’re your technical co-founders — fully invested in bringing your vision to life.`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
@@ -41,8 +35,8 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen bg-black rounded-b-4xl">
       <AnimatedHeaderSection
-        subTitle={"Cod with purpose, Built to scale"}
-        title={"About"}
+        subTitle={"We don’t just imagine the future — at IdeaHatch Labs, we build it."}
+        title={"About US"}
         text={text}
         textColor={"text-white"}
         withScrollTrigger={true}

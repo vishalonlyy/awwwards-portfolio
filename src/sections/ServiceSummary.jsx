@@ -57,7 +57,7 @@ const ServiceSummary = () => {
         <p>Scalability</p>
       </div>
       <div id="title-service-4" className="translate-x-48">
-        <p>Databases</p>
+        <p>Automation-Backends- AI</p>
       </div>
     </section>
   );

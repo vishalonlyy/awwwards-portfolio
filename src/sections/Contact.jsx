@@ -5,14 +5,14 @@ import { socials } from "../constants";
 import gsap from "gsap";
 
 const Contact = () => {
-  const text = `Got a question, how or project Idea?
-    WE’D love to hear from you and discus further!`;
+  const text = `Have a bold idea or a product in mind?
+Let’s start a conversation — we’re here to build, refine, and launch with you.`;
   const items = [
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
+    "Just imagine. We build.",
+    "You spark. We scale.",
+    "Dream it. Ship it.",
+    "Bold idea. Clean code.",
+    "Vision in. Product out.",
   ];
   useGSAP(() => {
     gsap.from(".social-link", {
@@ -34,8 +34,8 @@ const Contact = () => {
     >
       <div>
         <AnimatedHeaderSection
-          subTitle={"You Dream It, I Code it"}
-          title={"Contact"}
+          subTitle={"From vision to deployment — we build what you dream."}
+          title={"Contact US"}
           text={text}
           textColor={"text-white"}
           withScrollTrigger={true}
@@ -46,14 +46,14 @@ const Contact = () => {
               <h2>E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
-                JohnDoe@gmail.com
+                contact@ideahatchlabs.com
               </p>
             </div>
             <div className="social-link">
               <h2>Phone</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl lowercase md:text-2xl lg:text-3xl">
-                +33 7 12 12 32 12
+                +91 90277 00461
               </p>
             </div>
             <div className="social-link">

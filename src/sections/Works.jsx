@@ -10,9 +10,8 @@ const Works = () => {
   const previewRef = useRef(null);
 
   const [currentIndex, setCurrentIndex] = useState(null);
-  const text = `Featured projects that have been meticulously
-    crafted with passion to drive
-    results and impact.`;
+  const text = `Projects born from bold ideas and precision execution —
+ each Hatched to scale, inspire, and deliver lasting value`;
 
   const mouse = useRef({ x: 0, y: 0 });
   const moveX = useRef(null);
@@ -102,8 +101,8 @@ const Works = () => {
   return (
     <section id="work" className="flex flex-col min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Logic meets Aesthetics, Seamlessly"}
-        title={"Works"}
+        subTitle={"Here’s what happens when innovation meets execution at IdeaHatch Labs."}
+        title={"From Concept to Code"}
         text={text}
         textColor={"text-black"}
         withScrollTrigger={true}

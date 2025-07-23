@@ -1,79 +1,111 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Web3 & Blockchain Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "We build smart contracts, DeFi platforms, staking mechanisms, and NFT ecosystems optimized for security, scalability, and performance across Solana, Ethereum, and EVM chains.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "Smart Contract Architecture",
+        description: "Secure, gas-efficient contracts written in Solidity, Rust, and Move for EVM and non-EVM chains.",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Protocol & DApp Engineering",
+        description: "Custom-built DeFi protocols, staking dashboards, DAO tooling, and token ecosystems.",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "Multi-Chain Integration",
+        description: "Seamless support across Solana, Ethereum, BSC, and Layer-2s with bridge and wallet integrations.",
       },
+      {
+        title: "Audit-Ready Code",
+        description: "Built with security-first principles and audit-friendly modular design patterns."
+      },
+      {
+        title : "Tokenomics & Launch Support",
+        description: "End-to-end strategy and dev support for utility tokens, memecoins, and NFT drops."
+      }
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "AI-Powered Automation",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "From auto-reply bots and content generators to intelligent workflows — our AI systems integrate GPT, computer vision, and dynamic logic to deliver smart, adaptive experiences.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "Auto-Reply Bots",
+        description: "Custom-trained GPT agents that engage on X (Twitter), Telegram, and Discord — designed for tone, speed, and scalability.",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Content & Image Generators",
+        description: "AI engines that generate tweets, blogs, captions, or visuals using NLP and multimodal models.",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Workflow Automation",
+        description: "Smart pipelines that handle data scoring, enrichment, lead qualification, and client outreach — fully automated.",
       },
+      {
+        title : "Computer Vision Integrations",
+        description : "AI systems that detect and react to image content (e.g., X post replies, meme engagement bots)."
+      },
+      {
+        title : "Custom AI Training & Fine-Tuning",
+        description: "Tailored models built on your brand voice or user behavior — trained for precision and personality."
+      }
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Web & Mobile Product Development",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "We build fast, secure, and responsive websites, mobile apps, and internal tools with a focus on performance, accessibility, and intuitive UX — designed to scale with your product.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "Custom Web Applications",
+        description: "Full-stack platforms tailored to your business logic — fast, scalable, and SEO-optimized.",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "Mobile App Development",
+        description: "Cross-platform apps for iOS and Android with native performance and seamless UX.",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Dashboards & Admin Panels",
+        description: "Internal tools and analytics dashboards built for clarity, control, and efficiency.",
       },
+      {
+        title: "API Integration & Backend Systems",
+        description: "Robust backend architecture with secure APIs, third-party integrations, and real-time functionality.",
+      },
+      {
+        title: "Performance & Accessibility Optimization",
+        description: "Engineered for speed, WCAG compliance, and device responsiveness across all screen sizes."
+      }
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Creative Strategy & Digital Identity",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Our design team crafts cohesive brand systems, interactive interfaces, and visual experiences that resonate with users and position your product with clarity, trust, and distinction.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "Brand Systems & Visual Language",
+        description: "Creation of logos, typography, color palettes, and design frameworks that define your product’s identity.",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "UI/UX Design",
+        description: "User-first interface design focused on clarity, usability, and conversion — for both web and mobile.",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Interactive Prototyping",
+        description: "Clickable prototypes and motion mockups that bring your product vision to life before development.",
       },
+      {
+        title: "Design Systems & Component Libraries",
+        description: "Scalable, consistent design systems built for developers and designers to work in sync.",
+      },
+      {
+        title: "Content & Visual Storytelling",
+        description: "High-impact layouts, animations, and visuals that enhance engagement and communicate value instantly.",
+      }
     ],
   },
 ];
@@ -96,16 +128,16 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "KAKAFi",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "A platform built on Solana for DeFi and NFT utilities, featuring fast transactions and secure smart contracts.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    image: "/assets/projects/kakafi.jpg",
+    bgImage: "/assets/backgrounds/solana.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
+      { id: 2, name: "SOLANA" },
+      { id: 3, name: "Node.js" },
       { id: 4, name: "Tailwind CSS" },
     ],
   },
@@ -126,27 +158,28 @@ export const projects = [
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Fetch.ai Auto-Reply Bot",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "AI-powered auto-reply bot for X (Twitter) using ASI1.ai, Typescript, React, and Python for smart engagement.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
+    image: "/assets/projects/fetchai-bot.jpg",
+    bgImage: "/assets/backgrounds/bot.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "X API v2" },
+      { id: 2, name: "ASI1.ai" },
+      { id: 3, name: "Typescript" },
+      { id: 4, name: "React" },
+      { id: 5, name: "Python" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "ChainGPT x Binance Square",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "AI-powered content and engagement platform for Binance Square, leveraging Angular, Firebase, GraphQL, and Material UI.",
     href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
+    image: "/assets/projects/chaingpt-binance.jpg",
+    bgImage: "/assets/backgrounds/binance.jpg",
     frameworks: [
       { id: 1, name: "Angular" },
       { id: 2, name: "Firebase" },
@@ -171,11 +204,8 @@ export const projects = [
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "Instagram", href: "https://www.instagram.com/ideahatchlabs" },
+  { name: "GitHub", href: "https://github.com/ideahatchlabs" },
+  { name: "Discord", href: "https://discord.gg/ideahatchlabs" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/company/ideahatchlabs.com/" },
 ];
