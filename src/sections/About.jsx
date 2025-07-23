@@ -42,11 +42,14 @@ clean, scalable, and production-ready from day one.`;
         withScrollTrigger={true}
       />
       <div className="flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide lg:flex-row md:text-2xl lg:text-3xl text-white/60">
-        <img
+        <video
           ref={imgRef}
-          src="images/man.jpg"
-          alt="man"
-          className="w-md rounded-3xl"
+          src="video.mp4"
+          className="w-xl rounded-3xl"
+          autoPlay
+          loop
+          muted
+          playsInline
         />
         <AnimatedTextLines text={aboutText} className={"w-full"} />
       </div>

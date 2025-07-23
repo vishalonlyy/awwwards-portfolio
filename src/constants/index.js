@@ -132,7 +132,7 @@ export const projects = [
     description:
       "A platform built on Solana for DeFi and NFT utilities, featuring fast transactions and secure smart contracts.",
     href: "",
-    image: "/assets/projects/kakafi.jpg",
+    image: "/assets/projects/kakafy.jpg",
     bgImage: "/assets/backgrounds/solana.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -162,7 +162,7 @@ export const projects = [
     description:
       "AI-powered auto-reply bot for X (Twitter) using ASI1.ai, Typescript, React, and Python for smart engagement.",
     href: "",
-    image: "/assets/projects/fetchai-bot.jpg",
+    image: "/assets/projects/fetchai.jpg",
     bgImage: "/assets/backgrounds/bot.jpg",
     frameworks: [
       { id: 1, name: "X API v2" },
@@ -178,7 +178,7 @@ export const projects = [
     description:
       "AI-powered content and engagement platform for Binance Square, leveraging Angular, Firebase, GraphQL, and Material UI.",
     href: "",
-    image: "/assets/projects/chaingpt-binance.jpg",
+    image: "/assets/projects/chain.jpg",
     bgImage: "/assets/backgrounds/binance.jpg",
     frameworks: [
       { id: 1, name: "Angular" },

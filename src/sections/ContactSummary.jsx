@@ -11,6 +11,11 @@ const ContactSummary = () => {
     "Trust",
     "Collaboration",
     "Excellence",
+    "Vision",
+    "Craft",
+    "Integrity",
+    "Impact",
+    "Scalability",
   ];
   const items2 = [
     "contact us",
@@ -41,7 +46,7 @@ const ContactSummary = () => {
       <Marquee items={items} />
       <div className="overflow-hidden font-light text-center contact-text-responsive">
         <p>
-          Let’s build something that lasts"
+          "Let’s build something that lasts" <br/>
 We partner with bold teams and
 and deploy meaningful digital products.
           {/* “ Let’s build a <br />
